@@ -9,4 +9,5 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
     testImplementation("junit", "junit", "4.12")
+    testImplementation("io.mockk:mockk:1.10.0")
 }
