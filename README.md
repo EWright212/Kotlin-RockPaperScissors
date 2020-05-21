@@ -1,5 +1,11 @@
 Rock Paper Scissors 
 
+User Requirements
+- User can pick rock, paper or scissors
+- User can click OK
+- Computer can pick randomly rock, paper or scissors
+- User is told if they won, lost or drew
+
 
 General IDE
 
