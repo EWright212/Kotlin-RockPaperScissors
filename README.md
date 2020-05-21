@@ -29,6 +29,11 @@ Methods:
 Variable
 - selected move
 
+- Random (input)
+Methods: 
+- return a random value from input
+
+*Not needed for now*
 - Computer < Player 
 Methods:
 - choose move (random)
