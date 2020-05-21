@@ -6,6 +6,35 @@ User Requirements
 - Computer can pick randomly rock, paper or scissors
 - User is told if they won, lost or drew
 
+Non MVP
+- name your player
+
+
+Classes
+
+- Game (1 Player, 1 Computer)
+Methods:
+  - calculates score
+Stores
+ - 1 Player and their score
+ - 1 computer and their score
+
+Constant (later?)
+- Permanent list of moves
+
+
+- Player (name, score)
+Methods:
+- choose move (get user input)
+Variable
+- selected move
+
+- Computer < Player 
+Methods:
+- choose move (random)
+Variable
+- selected move
+
 
 General IDE
 

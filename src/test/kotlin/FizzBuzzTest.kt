@@ -1,11 +1,11 @@
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
-class FizzBuzzTest {
+class RockPaperScissorsGame {
     @Test
-    fun one() {
-        val fizzBuzz = FizzBuzz()
-        val output = fizzBuzz.convertToFizzBuzz(1)
+    fun `user input is stored`() {
+        val newGame = RockPaperScissorsGame()
+        val output = newGame.store(1)
         assertEquals(1, output)
     }
 }
