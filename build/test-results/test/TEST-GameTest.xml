@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-21T15:57:24" hostname="MRSHUDSON" time="2.358">
+<testsuite name="GameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-21T16:02:43" hostname="MRSHUDSON" time="2.489">
   <properties/>
-  <testcase name="calculate move" classname="GameTest" time="2.358"/>
+  <testcase name="calculate winner - Paper beats Rock" classname="GameTest" time="2.489"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

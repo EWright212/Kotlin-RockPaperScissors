@@ -1,4 +1,4 @@
-class Game(private var player: Player,private var player1: Player) {
+class Game(private var player1: Player,private var player2: Player) {
 
 
     val listOfMoves: List<String> = listOf("Rock", "Paper", "Scissors")
@@ -8,7 +8,12 @@ class Game(private var player: Player,private var player1: Player) {
     }
 
     fun calculateWinner(): Any {
-        return player
+        if (player1.move == "Rock" && player2.move == "Scissors") {
+            return player1
+        } else {
+            return player2
+        }
+
     }
 
 }
