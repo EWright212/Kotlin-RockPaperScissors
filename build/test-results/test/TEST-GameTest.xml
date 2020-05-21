@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-21T16:02:43" hostname="MRSHUDSON" time="2.489">
+<testsuite name="GameTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-05-21T16:14:59" hostname="MRSHUDSON" time="2.602">
   <properties/>
-  <testcase name="calculate winner - Paper beats Rock" classname="GameTest" time="2.489"/>
+  <testcase name="calculate winner - Scissors beats Paper P1 Wins" classname="GameTest" time="2.513"/>
+  <testcase name="calculate winner - Scissors beats Paper P2 Wins" classname="GameTest" time="0.013"/>
+  <testcase name="calculate winner - Paper draws Paper" classname="GameTest" time="0.01"/>
+  <testcase name="calculate winner - Paper beats Rock p1 Wins" classname="GameTest" time="0.009"/>
+  <testcase name="calculate winner - Paper beats Rock p2 Wins" classname="GameTest" time="0.006"/>
+  <testcase name="calculate winner - Rock beats Scissors p1 Wins" classname="GameTest" time="0.018"/>
+  <testcase name="calculate winner - Rock beats Scissors p2 Wins" classname="GameTest" time="0.03"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
